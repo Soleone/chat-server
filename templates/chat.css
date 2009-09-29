@@ -1,0 +1,40 @@
+body {
+  font-size: 8pt;
+  font-family: verdana;
+}
+div#content { 
+  width: 600px;
+  margin: 50px auto;
+}
+
+div#chat-log .line .em {
+  color: #999;
+}
+
+div#chat-log span.nick {
+  display:block;
+  width: 100px;
+  float:left;
+  text-align:right;
+  padding-right: 3px;
+}
+
+div#chat-log span.msg {
+  display:block;
+  width: 400px;
+  float:left;
+  text-align:left;
+  padding-left: 7px;
+  border-left: 1px solid #eee;
+  
+}
+
+div#chat-log div.line {
+  clear:both;
+}
+
+div#em {
+  
+}
+
+
